@@ -1,14 +1,15 @@
-@import url('https://fonts.googleapis.com/css?family=Lato');
+@import url('https://fonts.googleapis.com/css?family=Lato:400,700');
 
 
 body {
   background-color: #F2F2F2;
   margin: 0;
   font-family: 'Lato', sans-serif;
+  color: #666d89;
 }
 
 * {
-  outline: 1px dotted lime;
+  outline: 1px dotted red;
 }
 
 .header {
@@ -49,13 +50,88 @@ body {
 
 .banner {
   background-color: #f16C65;
-  padding: 20px 0;
+  padding-top: 40px;
   text-align: center;
+  height: 555px;
 }
 
 .banner img {
   max-width: 790px;
   width: 100%;
+}
+
+.services {
+  max-width: 960px;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 68px;
+  font-size: 1.1rem;
+  line-height: 2.0rem;
+}
+
+.customDesign {
+  width: 300px;
+  height: 112px;
+  font-size: 0.9rem;
+  line-height: 1.75rem;
+}
+
+.customDesign img {
+  float: left;
+  margin-top: 6px;
+}
+
+.customDesign h3 {
+  float: left;
+  margin: 0;
+}
+
+.customDesign p {
+  float:left;
+  width: 235px;
+  margin: 0;
+}
+
+.responsiveLayout {
+  width: 300px;
+  height: 112px;
+  font-size: 0.9rem;
+  line-height: 1.75rem;
+  margin-top: 35px;
+}
+
+.responsiveLayout img {
+  float: left;
+  margin-top: 6px;
+}
+
+.responsiveLayout h3 {
+  float: left;
+  margin: 0;
+}
+
+.responsiveLayout p {
+  float:left;
+  width: 235px;
+  margin: 0;
+}
+/*
+.customDesign img {
+  margin-top: 5px;
+  float: left;
+  border: 1px blue solid;
+}
+.imageContainer {
+  height: 155px;
+  width: 66px;
+  border: 1px blue solid;
+  float: left;
+
+}
+
+.designText {
+  margin-top: 0px;
+*/
 }
 
 @media screen and (max-width: 550px) {
