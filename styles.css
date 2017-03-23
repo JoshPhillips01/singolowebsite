@@ -115,6 +115,9 @@ body {
   width: 235px;
   margin: 0;
 }
+.leftContainer {
+  width: 300px;
+}
 /*
 .customDesign img {
   margin-top: 5px;
