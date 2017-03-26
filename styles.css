@@ -261,7 +261,6 @@ body {
 }
 .boxContainer {
   width: 960px;
-  margin-top: 43px;
   margin-left: auto;
   margin-right: auto;
   height: 275px;
@@ -269,12 +268,154 @@ body {
 
 .serviesboxContainer {
   border-bottom: 6px solid #FFFFFF;
-  max-height: 1000px;
+
+}
+.whiteStrip {
+  height: 500px;
 }
 
-.porfolioBackground {
+.portfolioBackground {
   height: 860px;
   background-color: #2D303A;
+}
+.portfolioText {
+  max-width: 960px;
+  margin-left: auto;
+  margin-right: auto;
+  padding-top: 34px;
+  font-size: 1.1rem;
+
+}
+.portfolioText h2 {
+  font-size: 1.8rem;
+}
+.portfolioText img {
+  width: 288px;
+}
+.portfolioimages {
+	width:960px;
+	margin-left: auto;
+  margin-right: auto;
+
+}
+
+.portfolioimages div{
+	width: 220px;
+	height: 187px;
+	float: left;
+	margin: 10px;
+	background: #454B5E;
+}
+
+.whiteStrip2 {
+  height: 730px;
+  border-bottom: 6px solid #FFFFFF;
+}
+.aboutUsText {
+  max-width: 960px;
+  margin-left: auto;
+  margin-right: auto;
+  padding-top: 60px;
+  line-height: 1.75rem;
+  font-size: 1.1rem;
+}
+.portraits {
+  width:960px;
+  margin-left: auto;
+  margin-right: auto;
+}
+.portraits div {
+  width: 300px;
+	height: 302px;
+	margin: 10px;
+	background: #454B5E;
+  float: left;
+}
+.portraitText {
+  width: 940px;
+  height: 454px;
+  margin-left: auto;
+  margin-right: auto;
+  font-size: 0.7rem;
+  line-height: 1.4rem;
+  outline-color: blue;
+}
+.portraitText h3 {
+  font-size: 1.3rem;
+  margin: 0px;
+  line-height: 0.75rem;
+}
+.portraitText img {
+  width: 155px;
+  margin-top: 10px;
+}
+
+.portraitTextLeft {
+  width: 300px;
+  height: 121px;
+  padding-top: 10px;
+  float: left;
+}
+.portraitTextMid {
+  width: 300px;
+  height: 121px;
+  padding-top: 10px;
+  float: left;
+  margin-left: 20px;
+}
+.portraitTextRight {
+  width: 300px;
+  height: 121px;
+  padding-top: 10px;
+  float: left;
+  margin-left: 20px;
+}
+.quoteStrip {
+  height: 655px;
+  background-color: #f06C64;
+  color: #f0D8D9;
+}
+
+.quote {
+    max-width: 960px;
+    margin-left: auto;
+    margin-right: auto;
+    padding-top: 60px;
+    line-height: 1.75rem;
+    font-size: 1.1rem;
+
+}
+.quoteInput {
+  width: 630px;
+  height: 365px;
+  margin-left: auto;
+  margin-right: auto;
+}
+.inputName {
+  background-color: #D6564F;
+  width: 630px;
+  height: 35px;
+  border-radius: 10px;
+}
+.inputEmail {
+  background: #D6564F;
+  width: 630px;
+  height: 35px;
+  border-radius: 10px;
+  margin-top: 20px;
+}
+.inputSubject {
+  background: #D6564F;
+  width: 630px;
+  height: 35px;
+  border-radius: 10px;
+  margin-top: 20px;
+}
+.contactInfo {
+  width: 310px;
+  height: 200px;
+  font-size: 0.75rem;
+  line-height: 1.25rem;
 }
 
 @media screen and (max-width: 550px) {
