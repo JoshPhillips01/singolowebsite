@@ -12,11 +12,13 @@ body {
   outline: 1px dotted red;
 }
 
+
 .header {
   height: 90px;
   background-color: #2D2F3B;
   color: white;
   border-bottom: 6px solid #4B4E61;
+
 }
 .nav {
   max-width: 960px;
@@ -53,6 +55,7 @@ body {
   padding-top: 40px;
   text-align: center;
   height: 555px;
+
 }
 
 .banner img {
@@ -67,74 +70,211 @@ body {
   margin-top: 68px;
   font-size: 1.1rem;
   line-height: 2.0rem;
+
 }
 
 .customDesign {
   width: 300px;
   height: 112px;
-  font-size: 0.9rem;
+  font-size: 0.8rem;
   line-height: 1.75rem;
+
 }
 
 .customDesign img {
   float: left;
+  width: 60px;
+  height: 60px;
   margin-top: 6px;
+  margin-right: 6px;
 }
 
 .customDesign h3 {
   float: left;
   margin: 0;
+  font-size: 1.1rem;
 }
 
 .customDesign p {
   float:left;
-  width: 235px;
+  width: 234px;
   margin: 0;
 }
 
 .responsiveLayout {
   width: 300px;
   height: 112px;
-  font-size: 0.9rem;
+  font-size: 0.8rem;
   line-height: 1.75rem;
   margin-top: 35px;
+
 }
 
 .responsiveLayout img {
   float: left;
+  width: 60px;
+  height: 60px;
   margin-top: 6px;
+  margin-right: 6px;
 }
 
 .responsiveLayout h3 {
   float: left;
   margin: 0;
+  font-size: 1.1rem;
 }
 
 .responsiveLayout p {
   float:left;
+  width: 234px;
+  margin: 0;
+}
+
+.leftContainer {
+  width: 300px;
+  float: left;
+
+}
+
+.inovativeIdeas {
+  width: 300px;
+  height: 112px;
+  font-size: 0.8rem;
+  line-height: 1.75rem;
+
+}
+
+.inovativeIdeas img {
+  float: left;
+  width: 60px;
+  height: 60px;
+  margin-top: 6px;
+  margin-right: 6px;
+}
+
+.inovativeIdeas h3 {
+  float: left;
+  margin: 0;
+  font-size: 1.1rem;
+}
+
+.inovativeIdeas p {
+  float:left;
+  width: 234px;
+  margin: 0;
+}
+.speechBubble {
+  width: 302px;
+  height: 112px;
+  font-size: 0.8rem;
+  line-height: 1.75rem;
+  margin-top: 35px;
+
+}
+
+.speechBubble img {
+  float: left;
+  width: 60px;
+  height: 60px;
+  margin-top: 6px;
+  margin-right: 6px;
+}
+
+.speechBubble h3 {
+  float: left;
+  margin: 0;
+  font-size: 1.1rem;
+}
+
+.speechBubble p {
+  float:left;
   width: 235px;
   margin: 0;
 }
-.leftContainer {
+.midcontainer {
   width: 300px;
-}
-/*
-.customDesign img {
-  margin-top: 5px;
   float: left;
-  border: 1px blue solid;
-}
-.imageContainer {
-  height: 155px;
-  width: 66px;
-  border: 1px blue solid;
-  float: left;
+  margin-left: 30px;
 
 }
 
-.designText {
-  margin-top: 0px;
-*/
+.loveAnswer {
+  width: 300px;
+  height: 112px;
+  font-size: 0.8rem;
+  line-height: 1.75rem;
+
+}
+
+.loveAnswer img {
+  float: left;
+  width: 60px;
+  height: 60px;
+  margin-top: 6px;
+  margin-right: 6px;
+}
+
+.loveAnswer h3 {
+  float: left;
+  margin: 0;
+  font-size: 1.1rem;
+}
+
+.loveAnswer p {
+  float:left;
+  width: 234px;
+  margin: 0;
+}
+.feelStar {
+  width: 300px;
+  height: 112px;
+  font-size: 0.8rem;
+  line-height: 1.75rem;
+  margin-top: 35px;
+
+}
+
+.feelStar img {
+  float: left;
+  width: 60px;
+  height: 60px;
+  margin-top: 6px;
+  margin-right: 6px;
+}
+
+.feelStar h3 {
+  float: left;
+  margin: 0;
+  font-size: 1.1rem;
+}
+
+.feelStar p {
+  float:left;
+  width: 234px;
+  margin: 0;
+}
+.rightContainer {
+  width: 300px;
+  float: left;
+  margin-left: 30px;
+
+}
+.boxContainer {
+  width: 960px;
+  margin-top: 43px;
+  margin-left: auto;
+  margin-right: auto;
+  height: 275px;
+}
+
+.serviesboxContainer {
+  border-bottom: 6px solid #FFFFFF;
+  max-height: 1000px;
+}
+
+.porfolioBackground {
+  height: 860px;
+  background-color: #2D303A;
 }
 
 @media screen and (max-width: 550px) {
