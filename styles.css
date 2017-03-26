@@ -388,36 +388,133 @@ body {
 .quoteInput {
   width: 630px;
   height: 365px;
-  margin-left: auto;
-  margin-right: auto;
-}
-.inputName {
-  background-color: #D6564F;
-  width: 630px;
-  height: 35px;
-  border-radius: 10px;
-}
-.inputEmail {
-  background: #D6564F;
-  width: 630px;
-  height: 35px;
-  border-radius: 10px;
-  margin-top: 20px;
-}
-.inputSubject {
-  background: #D6564F;
-  width: 630px;
-  height: 35px;
-  border-radius: 10px;
-  margin-top: 20px;
-}
-.contactInfo {
-  width: 310px;
-  height: 200px;
-  font-size: 0.75rem;
-  line-height: 1.25rem;
+  float: left;
+  font-size: 0.8rem;
 }
 
+.inputName {
+  background-color: #D6564F;
+  width: 625px;
+  height: 39px;
+  border-radius: 5px;
+  float: left;
+}
+.inputName p {
+  width: 92px;
+  height: 15px;
+  padding: 11px 15px;
+  margin: 0;
+  float: left;
+}
+.inputName input {
+  width: 500px;
+  height: 32px;
+  background: #D6564F;
+  float: left;
+  padding: 5px 5px 0px 0px;
+  border: none;
+  outline: none;
+  color: white;
+  }
+
+  .inputEmail {
+    background-color: #D6564F;
+    width: 625px;
+    height: 39px;
+    border-radius: 5px;
+    float: left;
+    margin-top: 15px;
+  }
+  .inputEmail p {
+    width: 92px;
+    height: 15px;
+    padding: 11px 15px;
+    margin: 0;
+    float: left;
+  }
+  .inputEmail input {
+    width: 500px;
+    height: 32px;
+    background: #D6564F;
+    float: left;
+    padding: 5px 5px 0px 0px;
+    border: none;
+    outline: none;
+    color: white;
+    }
+
+  .inputSubject {
+    background-color: #D6564F;
+    width: 625px;
+    height: 39px;
+    border-radius: 5px;
+    float: left;
+    margin-top: 15px;
+    }
+
+  .inputSubject p {
+    width: 92px;
+    height: 15px;
+    padding: 11px 15px;
+    margin: 0;
+    float: left;
+    }
+
+  .inputSubject input {
+    width: 495px;
+    height: 32px;
+    background: #D6564F;
+    float: left;
+    padding: 5px 5px 0px 0px;
+    border: none;
+    outline: none;
+    color: white;
+  }
+
+  .inputDesc {
+    background-color: #D6564F;
+    width: 625px;
+    height: 200px;
+    border-radius: 5px;
+    float: left;
+    margin-top: 15px;
+}
+  .inputDesc p {
+    width: 600px;
+    height: 15px;
+    padding: 11px 15px;
+    margin: 0;
+    float: left;
+}
+  .inputDesc textarea {
+    width: 620px;
+    height: 158px;
+    background: #D6564F;
+    float: none;
+    padding: 15px;
+    border: none;
+    outline: none;
+    color: white;
+}
+
+  .contactInfo {
+    width: 310px;
+    height: 200px;
+    font-size: 0.75rem;
+    line-height: 1.25rem;
+    float: left;
+    margin-left: 10px;
+  }
+.contactInfo h3 {
+  font-size: 1.2rem;
+  margin-top: 0px;
+}
+  .quoteContainer {
+    width: 950px;
+    height: 365px;
+    margin-left: auto;
+    margin-right: auto;
+  }
 @media screen and (max-width: 550px) {
 
     .logo {
